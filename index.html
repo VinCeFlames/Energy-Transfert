@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101715">
+<title>Energy Transfert — Bureau d’enquête | Cartographie interactive</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand"><div class="brand-seal">ET</div><div><strong>ENERGY TRANSFERT</strong><small>CELLULE D'ENQUÊTE · PARODIE</small></div></div>
+    <div class="file-ref">RÉF. ET-026 <span>/ CONFIDENTIEL</span><br>10 DOSSIERS RÉPERTORIÉS</div>
+  </header>
+  <section class="intro">
+    <div><div class="eyebrow">RECONSTITUTION DU RÉSEAU</div><h1>LES VISAGES <span>DU RÉSEAU.</span></h1><p>Une seule carte. Une hiérarchie. Cliquez sur un portrait pour ouvrir son dossier.</p></div>
+    <div class="intro-right">CARTOGRAPHIE DES LIAISONS<b>01 / 01</b>ARCHIVE EXPÉRIMENTALE</div>
+  </section>
+  <main class="board-shell" aria-label="Cartographie de l'équipe Energy Transfert">
+    <div class="board-header"><strong><span class="red-dot"></span>ORGANIGRAMME D'ENQUÊTE</strong><div class="board-tools"><small>10 IDENTITÉS · LIAISONS EN ANALYSE</small><button id="fx-toggle" class="fx-toggle" type="button" aria-pressed="true" aria-label="Désactiver les animations">● EFFETS ACTIFS</button></div></div>
+    <div class="board-scroll" id="board-scroll">
+      <div class="board" id="board">
+        <svg id="links" aria-hidden="true"></svg>
+        <div class="radar-sweep" aria-hidden="true"></div>
+        <div class="tier-label one">NIVEAU 01<span>DIRECTION</span></div>
+        <div class="tier-label two">NIVEAU 02<span>ENCADREMENT</span></div>
+        <div class="tier-label three">NIVEAU 03<span>TERRAIN</span></div>
+      </div>
+    </div>
+    <div class="board-foot"><span class="foot-count">● 10 PROFILS · CLIQUEZ POUR CONSULTER</span><span class="help-mobile">TOUCHEZ UN PORTRAIT POUR OUVRIR LE DOSSIER</span><span>ARCHIVE ET-026</span></div>
+  </main>
+  <p class="fineprint">Projet humoristique Energy Transfert. Les noms et fonctions sont renseignés. Les photos d’Anthony, Julien et Alex sont réelles ; les autres portraits sont provisoires. Les fiches humoristiques restent à compléter.</p>
+</div>
+<dialog id="profile" class="profile" aria-labelledby="profile-name">
+  <div class="profile-head"><span>ENERGY TRANSFERT // DOSSIER INDIVIDUEL</span><button class="profile-close" id="close" type="button" aria-label="Fermer le dossier">×</button></div>
+  <div class="profile-body">
+    <div class="profile-upper">
+      <div class="profile-photo-wrap"><img id="profile-photo" alt="Portrait provisoire"></div>
+      <div><div class="profile-class" id="profile-id"></div><h2 id="profile-name"></h2><p class="profile-alias" id="profile-alias"></p>
+        <div class="info-row"><span>FONCTION</span><b id="profile-role"></b></div>
+        <div class="info-row"><span>NIVEAU</span><b id="profile-level"></b></div>
+        <div class="info-row"><span>STATUT</span><b>Fiche provisoire · projet humoristique</b></div>
+      </div>
+    </div>
+    <div class="profile-rule"></div><h3>RAPPORT D'OBSERVATION</h3><p class="description" id="profile-description"></p>
+    <div class="trait-grid"><div><h4>+ QUALITÉS CONNUES</h4><ul id="profile-qualities"></ul></div><div class="negative"><h4>− DÉFAUTS SIGNALÉS</h4><ul id="profile-faults"></ul></div></div>
+    <blockquote class="quote" id="profile-quote"></blockquote>
+  </div>
+  <div class="profile-footer"><span>DOCUMENT PARODIQUE · DIFFUSION INTERNE</span><span>ÉNERGIE / TRANSFERT / 2026</span></div>
+</dialog>
+<script src="assets/js/people.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>

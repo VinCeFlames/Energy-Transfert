@@ -1,0 +1,9 @@
+ENERGY TRANSFERT — DÉMARRAGE RAPIDE
+
+1. Ouvrez le fichier index.html dans Chrome pour tester le site.
+2. Gardez le dossier assets à côté du fichier index.html.
+3. Pour les photos et les textes, consultez README.md.
+4. Sur GitHub Desktop, ajoutez le dossier Energy-Transfert comme dépôt local,
+   créez le dépôt Git s’il est proposé, puis publiez-le en PRIVÉ.
+
+Pas de Node.js, pas de npm, pas de Cloudflare pour le moment.

@@ -1,0 +1,13 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dépendances / sorties (au cas où)
+node_modules/
+dist/
+build/
+.cache/
+.vscode/
+.idea/
+*.log
