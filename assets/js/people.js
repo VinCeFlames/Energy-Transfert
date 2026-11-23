@@ -24,7 +24,7 @@ const people = [
   {
     "id": "ET-002",
     "name": "Anthony Piefert",
-    "pseudo": "millimètre",
+    "pseudo": "Millimètre",
     "role": "Chef",
     "level": "02 · ENCADREMENT",
     "image": "assets/images/anthony.jpg",
@@ -46,6 +46,7 @@ const people = [
   {
     "id": "ET-003",
     "name": "Julien Metz",
+    "pseudo": "Tetris",
     "role": "Chef",
     "level": "02 · ENCADREMENT",
     "image": "assets/images/julien.jpg",
@@ -74,11 +75,12 @@ const people = [
       "À compléter"
     ],
     "quote": "",
-    "photoStatus": "Photographie de démonstration"
+    "photoStatus": "Photo réelle intégrée"
   },
   {
     "id": "ET-005",
     "name": "Guillaume",
+    "pseudo": "PtitGras",
     "role": "Chef",
     "level": "02 · ENCADREMENT",
     "image": "assets/images/guillaume.jpg",
@@ -90,7 +92,7 @@ const people = [
       "À compléter"
     ],
     "quote": "",
-    "photoStatus": "Photographie de démonstration"
+    "photoStatus": "Photo réelle intégrée"
   },
   {
     "id": "ET-006",
@@ -107,11 +109,12 @@ const people = [
       "À compléter"
     ],
     "quote": "",
-    "photoStatus": "Photographie de démonstration"
+    "photoStatus": "Photo réelle intégrée"
   },
   {
     "id": "ET-007",
     "name": "Sheriff",
+    "pseudo": "SFR",
     "role": "Intérimaire",
     "level": "03 · TERRAIN",
     "image": "assets/images/sheriff.jpg",
@@ -123,7 +126,7 @@ const people = [
       "À compléter"
     ],
     "quote": "",
-    "photoStatus": "Photographie de démonstration"
+    "photoStatus": "Photo réelle intégrée"
   },
   {
     "id": "ET-008",
@@ -162,7 +165,7 @@ const people = [
     "name": "Nolan",
     "role": "Intérimaire",
     "level": "03 · TERRAIN",
-    "image": "assets/images/nolan.svg",
+    "image": "assets/images/nolan.jpg",
     "description": "Profil à compléter : anecdotes, parcours et présentation humoristique à ajouter ultérieurement.",
     "qualities": [
       "À compléter"
@@ -171,6 +174,6 @@ const people = [
       "À compléter"
     ],
     "quote": "",
-    "photoStatus": "Photographie à ajouter"
+    "photoStatus": "Photo réelle intégrée"
   }
 ];
