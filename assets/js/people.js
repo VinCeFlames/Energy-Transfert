@@ -7,6 +7,7 @@ const people = [
   {
     "id": "ET-001",
     "name": "William Lidou",
+    "pseudo": "Le Chequier",
     "role": "Patron",
     "level": "01 · DIRECTION",
     "image": "assets/images/william.jpg",
@@ -61,6 +62,7 @@ const people = [
   {
     "id": "ET-004",
     "name": "Bobby",
+    "pseudo": "BobX",
     "role": "Chef",
     "level": "02 · ENCADREMENT",
     "image": "assets/images/bobby.jpg",
