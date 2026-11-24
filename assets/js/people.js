@@ -1,7 +1,7 @@
 /* ENERGY TRANSFERT — fiches membres.
  * Modifier ici les prénoms, pseudos, descriptions, qualités et défauts.
  * Les liens vers les photos sont relatifs à index.html.
- * Pour un nouveau collègue, prévoir aussi sa position dans app.js.
+ * Les membres archivés sont ajoutés dans la section ARCHIVES à part de la hiérarchie active.
  */
 const people = [
   {
@@ -175,5 +175,26 @@ const people = [
     ],
     "quote": "",
     "photoStatus": "Photo réelle intégrée"
+  },
+  {
+    "id": "ET-011",
+    "name": "Patrick",
+    "pseudo": "Rambo",
+    "role": "Ancien chef",
+    "level": "ARCHIVES · ENCADREMENT (RETRAITÉ)",
+    "archive": true,
+    "image": "assets/images/patrick.svg",
+    "description": "Ancien chef aujourd’hui à la retraite, Patrick est resté célèbre pour son tempérament de motard, son côté bourrin et ses contrôles de fin de journée : tous les outils devaient être rangés avant le départ.",
+    "qualities": [
+      "Rigoureux sur le matériel",
+      "Organisé",
+      "Vigilant sur les outils"
+    ],
+    "faults": [
+      "Un peu bourrin",
+      "L’inventaire pouvait rallonger la journée"
+    ],
+    "quote": "« Les gars, on range bien les outils ! Je veux qu’il ne manque rien. »",
+    "photoStatus": "Portrait à venir"
   }
 ];

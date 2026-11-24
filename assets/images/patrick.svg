@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="440" viewBox="0 0 400 440" role="img" aria-label="Photo de Patrick à venir">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#817d6c"/><stop offset="1" stop-color="#3a4038"/></linearGradient></defs>
+<rect width="400" height="440" fill="url(#bg)"/>
+<g opacity=".13" stroke="#eee6d7"><path d="M0 36H400M0 75H400M0 114H400M0 153H400M0 192H400M0 231H400M0 270H400M0 309H400M0 348H400M0 387H400"/></g>
+<path d="M62 440c0-123 51-194 138-194s138 71 138 194Z" fill="#282d29"/>
+<circle cx="200" cy="155" r="80" fill="#373d35"/>
+<path d="M126 158a74 74 0 0 1 148 0" fill="none" stroke="#a6a18c" opacity=".18" stroke-width="2"/>
+<rect x="63" y="348" width="274" height="49" rx="1" fill="#252b25" stroke="#bfaa8e"/>
+<text x="200" y="368" text-anchor="middle" fill="#e7d9c0" font-family="monospace" font-size="15" font-weight="bold" letter-spacing="2">ARCHIVES</text>
+<text x="200" y="389" text-anchor="middle" fill="#c8b39a" font-family="monospace" font-size="13" letter-spacing="1">PHOTO À VENIR</text>
+</svg>
